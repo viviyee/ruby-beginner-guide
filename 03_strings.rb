@@ -29,8 +29,6 @@ puts name.downcase()
 puts name.capitalize()
 puts name.downcase().reverse()
 
-puts '      user entered whitespaces         '.strip()
-
 
 # Searching and Checking
 dialog = "
@@ -58,3 +56,14 @@ products = 'milk, cheese, yogurt'.split(', ')
 puts countries.join(' ~ ')
 puts letters.join()
 puts products.join(',')
+
+
+# Removing and Chopping
+puts '      user entered whitespaces         '.strip()
+
+user_input = gets()
+# gets() function returns a string which has a new line ending
+puts user_input + 'this will go to new line'
+
+puts user_input.chomp() + ' (same line)'                # remove last \n
+puts user_input.chomp().chop()                          # remove last letter
