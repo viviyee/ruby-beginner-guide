@@ -6,6 +6,7 @@
 puts (1..5) === 3
 puts /tsch/ === 'tschüss'
 
+
 # Combined Comparisons (<=>)
 =begin
 -1 if 1st operand is LESS than 2nd operand
@@ -91,5 +92,4 @@ if gpa >= 3.3 and attandance >= 80                  # and &&
 elsif gpa >= 3.3 or attandance >= 80                # or ||
     puts 'You can get up to 50% scholarship'
 end
-
 

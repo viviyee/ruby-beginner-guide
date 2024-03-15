@@ -67,3 +67,9 @@ puts user_input + 'this will go to new line'
 
 puts user_input.chomp() + ' (same line)'                # remove last \n
 puts user_input.chomp().chop()                          # remove last letter
+
+
+# Formatting and Padding
+puts "hello".center(10)                  # => "  hello   "
+puts "hello".ljust(10)                   # => "hello     "
+puts "hello".rjust(10)                   # => "     hello"
